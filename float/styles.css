@@ -1,0 +1,23 @@
+.upper-image {
+  width: 100%;
+}
+
+.left-text {
+  width: 25%;
+  float: left;
+}
+
+.right-image {
+  width: 75%;
+  float: right;
+}
+
+.lower-text {
+  clear: both;
+  width: 100%;
+}
+
+.upper-image img, .right-image img {
+  width: 100%;
+  height: auto;
+}

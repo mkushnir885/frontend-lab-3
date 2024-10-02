@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.upper-image, .lower-text {
+  flex: 1;
+}
+
+.left-text {
+  flex: 1;
+}
+
+.right-image {
+  flex: 3;
+}
+
+.upper-image img, .right-image img {
+  width: 100%;
+  height: auto;
+}
